@@ -6,7 +6,7 @@
 #
 
 # change focused window border color to white
-client.focused          #ffffff #285577 #ffffff #2e9ef4   #ffffff
+client.focused          #ffffff #285577 #ffffff #2e9ef4   #c9c9c9
 
 # i3-gaps config starts here
 for_window [class=.*] border pixel 1
