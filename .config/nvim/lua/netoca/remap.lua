@@ -15,3 +15,20 @@ nnoremap("<M-h>", "<C-w>h")
 nnoremap("<M-k>", "<C-w>k")
 nnoremap("<M-j>", "<C-w>j")
 nnoremap("<M-l>", "<C-w>l")
+
+nnoremap("<C-w>v", "<cmd>vsplit<CR>")
+nnoremap("<C-w>h", "<cmd>split<CR>")
+
+nnoremap("<C-a>", "gg<S-v>Gy") -- Copy all file content 
+nnoremap("<C-s>", "<cmd>w<CR>") -- Save file
+nnoremap("<C-x>", "<cmd>q!<CR>") -- Force close file
+nnoremap("<leader><leader>", "<cmd>so %<CR>") -- Source
+
+-- Mappings.
+-- See `:help vim.diagnostic.*` for documentation on any of the below functions
+local opts = { noremap=true, silent=true }
+nnoremap('<leader>e', vim.diagnostic.open_float, opts)
+nnoremap('[d', vim.diagnostic.goto_prev, opts)
+nnoremap(']d', vim.diagnostic.goto_next, opts)
+nnoremap('<leader>q', vim.diagnostic.setloclist, opts)
+

@@ -1,1 +1,2 @@
---require('netoca')
+require('netoca')
+print('Init root')
