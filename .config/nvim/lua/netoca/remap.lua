@@ -24,6 +24,12 @@ nnoremap("<C-s>", "<cmd>w<CR>") -- Save file
 nnoremap("<C-x>", "<cmd>q!<CR>") -- Force close file
 nnoremap("<leader><leader>", "<cmd>so %<CR>") -- Source
 
+nnoremap("<C-M-k>", "ddk<S-p>") -- Move line up
+nnoremap("<C-M-j>", "ddj<S-p>") -- Move line down
+
+nnoremap("<leader>l", "<cmd>tabnext<CR>")
+nnoremap("<leader>h", "<cmd>tabprevious<CR>")
+
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = { noremap = true, silent = true }
@@ -33,7 +39,7 @@ nnoremap("]d", vim.diagnostic.goto_next, opts)
 nnoremap("<leader>q", vim.diagnostic.setloclist, opts)
 
 -- Using Lua functions
-nnoremap("<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<cr>")
+nnoremap("<leader>ff", "<cmd>lua require('telescope.builtin').find_files({ hidden = true })<cr>")
 nnoremap("<leader>fg", "<cmd>lua require('telescope.builtin').live_grep()<cr>")
 nnoremap("<leader>fb", "<cmd>lua require('telescope.builtin').buffers()<cr>")
 nnoremap("<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>")

@@ -12,11 +12,12 @@ null_ls.setup({
 		formatting.prettierd,
 		formatting.stylua,
 
-		diagnostics.eslint_d,
 		diagnostics.stylelint,
+		diagnostics.eslint_d,
 		diagnostics.selene,
-
 		diagnostics.fish,
+
+		code_actions.eslint_d,
 	},
 
 	debug = false,

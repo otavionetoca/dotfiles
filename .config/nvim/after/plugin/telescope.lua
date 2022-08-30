@@ -1,4 +1,7 @@
 require("telescope").setup({
+	defaults = {
+		file_ignore_patterns = { "node%_modules/.*", ".git/.*" },
+	},
 	extensions = {
 		fzf = {
 			fuzzy = true, -- false will only do exact matching

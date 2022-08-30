@@ -31,13 +31,12 @@ protocol.CompletionItemKind = {
 }
 
 local on_attach = require("netoca.on_attach").on_attach
-local capabilities = require("netoca.capabilities")
+local capabilities = require("netoca.capabilities").capabilities
 
-lspconfig.tsserver.setup({
-	on_attach = on_attach,
-	filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
-	cmd = { "typescript-language-server", "--stdio" },
-	capabilities = capabilities,
+local jsonCapabilities = capabilities
+jsonCapabilities.textDocument.completion.completionItem.snippetSupport = true
+lspconfig.jsonls.setup({
+	capabilities = jsonCapabilities,
 })
 
 lspconfig.tailwindcss.setup({})
