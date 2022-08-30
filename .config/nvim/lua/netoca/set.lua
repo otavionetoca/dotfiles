@@ -19,3 +19,4 @@ vim.opt.smartcase = true
 vim.opt.wrap = false
 
 vim.g.mapleader = " "
+vim.o.termguicolors = true
