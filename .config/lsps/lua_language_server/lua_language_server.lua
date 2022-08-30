@@ -1,10 +1,8 @@
-print('Initializing sumneko lua')
-
 local on_attach = require('netoca.on_attach').on_attach
 local capabilities = require('netoca.on_attach').capabilities
 
 require('lspconfig')['sumneko_lua'].setup {
-   --[[ settings = {
+  --[[ settings = {
         Lua = {
             runtime = {
                 -- Tell the language server which version of Lua you're using (most likely LuaJIT in the case of Neovim)
@@ -24,7 +22,6 @@ require('lspconfig')['sumneko_lua'].setup {
             },
         },
     },]]
-    on_attach = on_attach,
-    capabilities = capabilities
+  on_attach = on_attach,
+  capabilities = capabilities
 }
-

@@ -1,4 +1,3 @@
-print('Initializing cmp-nvim-lsp')
 local cmp = require("cmp")
 local luasnip = require('luasnip')
 
@@ -42,4 +41,3 @@ cmp.setup {
     { name = 'path' },
   },
 }
-
