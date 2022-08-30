@@ -7,7 +7,8 @@ return require("packer").startup({
 	function(use)
 		-- Packer can manage itself
 		use("wbthomason/packer.nvim")
-		use("otavionetoca/moonlight.nvim")
+		-- use("otavionetoca/moonlight.nvim")
+		use("folke/tokyonight.nvim")
 
 		-- LSP
 		use("neovim/nvim-lspconfig") -- Collection of configurations for built-in LSP client
@@ -35,6 +36,8 @@ return require("packer").startup({
 				require("nvim-autopairs").setup({})
 			end,
 		})
+		use("windwp/nvim-ts-autotag")
+		use("kyazdani42/nvim-web-devicons")
 
 		use({
 			"nvim-telescope/telescope.nvim",

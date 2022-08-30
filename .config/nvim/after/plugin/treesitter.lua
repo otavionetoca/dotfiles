@@ -19,11 +19,16 @@ require("nvim-treesitter.configs").setup({
 		"yaml",
 	},
 
-  autotag = {
-    enable = true,
-  },
+	autotag = {
+		enable = true,
+	},
 
 	auto_install = true,
+
+	indent = {
+		enable = true,
+		disable = {},
+	},
 
 	highlight = {
 		-- `false` will disable the whole extension
@@ -33,7 +38,7 @@ require("nvim-treesitter.configs").setup({
 		-- disable highlighting for the `tex` filetype, you need to include `latex` in this list as this is
 		-- the name of the parser)
 		-- list of language that will be disabled
-		disable = { "c", "rust" },
+		disable = {},
 
 		-- Setting this to true will run `:h syntax` and tree-sitter at the same time.
 		-- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
@@ -42,6 +47,9 @@ require("nvim-treesitter.configs").setup({
 		additional_vim_regex_highlighting = false,
 	},
 })
+
+local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
+parser_config.tsx.filetype_to_parsername = { "javascript", "typescript.tsx" }
 
 ---WORKAROUND
 vim.api.nvim_create_autocmd({ "BufEnter", "BufAdd", "BufNew", "BufNewFile", "BufWinEnter" }, {
