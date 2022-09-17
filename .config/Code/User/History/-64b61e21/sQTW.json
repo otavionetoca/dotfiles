@@ -1,0 +1,17 @@
+{
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Bearded Theme Arc EolStorm",
+    "eslint.alwaysShowStatus": true,
+    "prettier.arrowParens": "avoid",
+    "editor.formatOnSave": true,
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}

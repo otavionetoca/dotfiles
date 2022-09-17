@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Bearded Theme Arc EolStorm",
+    "eslint.alwaysShowStatus": true,
+    "prettier.arrowParens": "avoid",
+    "editor.formatOnSave": true
+}

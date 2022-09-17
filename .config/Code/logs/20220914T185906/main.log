@@ -1,0 +1,8 @@
+[2022-09-14 18:59:06.554] [main] [info] update#setState idle
+[2022-09-14 18:59:07.514] [main] [info] Starting extension host with pid 174611 (fork() took 6 ms).
+[2022-09-14 18:59:17.041] [main] [info] Extension host with pid 174611 exited with code: 0, signal: null.
+[2022-09-14 18:59:17.768] [main] [info] Starting extension host with pid 174808 (fork() took 5 ms).
+[2022-09-14 18:59:36.555] [main] [info] update#setState checking for updates
+[2022-09-14 18:59:36.559] [main] [info] update#setState available for download
+[2022-09-14 19:01:41.990] [main] [info] Extension host with pid 174808 exited with code: 0, signal: null.
+[2022-09-14 19:01:41.993] [main] [info] Waiting for extension host with pid 174808 to exit.

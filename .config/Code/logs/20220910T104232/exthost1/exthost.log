@@ -1,0 +1,430 @@
+[2022-09-10 10:42:33.961] [exthost] [info] Extension host with pid 31671 started
+[2022-09-10 10:42:33.961] [exthost] [info] Skipping acquiring lock for /home/netoca/.config/Code/User/workspaceStorage/2e04b71b364d796886d932b926ce0794.
+[2022-09-10 10:42:34.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-09-10 10:42:34.020] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-10 10:42:34.021] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-10 10:42:34.023] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-10 10:42:34.026] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-09-10 10:42:34.048] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-10 10:42:34.079] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-09-10 10:42:34.226] [exthost] [info] Eager extensions activated
+[2022-09-10 10:42:34.231] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-10 10:42:34.236] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-10 10:42:34.238] [exthost] [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-10 10:42:34.533] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-10 10:42:51.772] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-10 10:42:51.805] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-10 10:42:56.243] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescriptreact'
+[2022-09-10 10:42:56.291] [exthost] [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onLanguage:typescriptreact'
+[2022-09-10 10:42:58.661] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-09-10 10:43:51.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-10 10:43:51.058] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-10 10:43:51.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-10 11:14:09.626] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 11:14:09.626] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+[2022-09-10 11:16:01.616] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 11:16:01.616] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-10 11:38:10.185] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 11:38:10.185] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+[2022-09-10 11:38:10.185] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 11:38:10.185] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+[2022-09-10 11:38:10.185] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 11:38:10.185] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+[2022-09-10 11:46:26.523] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 11:46:26.524] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+Debug Failure.
+Error: Debug Failure.
+    at Object.getImportCompletionAction (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:154882:32)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134871:33)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134810:30)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:167280:35)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179454:57
+    at Object.mapDefined (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:622:30)
+    at Session.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179452:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178089:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-10 11:46:26.573] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 11:46:26.573] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+Debug Failure.
+Error: Debug Failure.
+    at Object.getImportCompletionAction (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:154882:32)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134871:33)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134810:30)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:167280:35)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179454:57
+    at Object.mapDefined (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:622:30)
+    at Session.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179452:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178089:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-10 12:07:29.163] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-09-10 12:07:29.554] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-09-10 12:16:40.747] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 12:16:40.747] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+Debug Failure.
+Error: Debug Failure.
+    at getAutoImportSymbolFromCompletionEntryData (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:136625:66)
+    at getSymbolCompletionFromEntryId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134741:34)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134791:36)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:167280:35)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179454:57
+    at Object.mapDefined (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:622:30)
+    at Session.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179452:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178089:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-10 12:20:30.359] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 12:20:30.359] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-10 12:22:37.167] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 12:22:37.167] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-10 12:26:20.811] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 12:26:20.812] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+Debug Failure.
+Error: Debug Failure.
+    at Object.getImportCompletionAction (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:154882:32)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134871:33)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134810:30)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:167280:35)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179454:57
+    at Object.mapDefined (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:622:30)
+    at Session.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179452:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178089:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-10 12:30:59.113] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-10 12:30:59.113] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+Debug Failure.
+Error: Debug Failure.
+    at Object.getImportCompletionAction (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:154882:32)
+    at getCompletionEntryCodeActionsAndSourceDisplay (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134871:33)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:134810:30)
+    at Object.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:167280:35)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179454:57
+    at Object.mapDefined (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:622:30)
+    at Session.getCompletionEntryDetails (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179452:33)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178089:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 17:01:30.494] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 17:01:30.494] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-11 22:02:48.204] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:02:48.204] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-11 22:06:01.264] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:06:01.264] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-11 22:20:06.354] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:20:06.354] [exthost] [error] Error: DisposableStore is missing...
+	at J._convertCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52875)
+	at J.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:52653)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-09-11 22:31:52.718] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:31:52.718] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getEncodedSemanticClassifications (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178651:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178113:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 22:31:52.718] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:31:52.718] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179750:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178225:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 22:31:53.781] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:31:53.781] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getDocumentHighlights (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179037:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178187:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 22:31:54.165] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:31:54.165] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179750:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178225:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 22:31:54.165] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:31:54.166] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getDefinitionAndBoundSpan (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178738:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:177985:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 22:31:59.946] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:31:59.946] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179750:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178225:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 22:32:00.010] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:32:00.010] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getEncodedSemanticClassifications (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178651:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178113:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-11 22:32:00.163] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-11 22:32:00.163] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:170275:23)
+    at ScriptInfo.getDefaultProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:171118:46)
+    at ProjectService.doEnsureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174331:48)
+    at ProjectService.ensureDefaultProjectForFile (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:174326:75)
+    at Session.getFileAndProjectWorker (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179244:87)
+    at Session.getFileAndProject (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179227:29)
+    at Session.getApplicableRefactors (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:179750:31)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:178225:61)
+    at /opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at Session.executeWithRequestId (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at Session.executeCommand (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at Session.onMessage (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/opt/visual-studio-code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at r.create (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:511605)
+	at d.dispatchResponse (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:505453)
+	at d.dispatchMessage (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:504321)
+	at ChildProcess.<anonymous> (/opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension.js:1:503806)
+	at ChildProcess.emit (node:events:526:28)
+	at emit (node:internal/child_process:938:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-12 11:31:38.136] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-12 11:31:38.264] [exthost] [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+[2022-09-12 11:31:38.273] [exthost] [info] Extension host with pid 31671 exiting with code 0

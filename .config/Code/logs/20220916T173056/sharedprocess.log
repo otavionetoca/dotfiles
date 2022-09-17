@@ -1,0 +1,8 @@
+[2022-09-16 17:30:57.534] [sharedprocess] [info] Starting worker process with pid 63700 (type: fileWatcher, window: 1).
+[2022-09-16 17:31:27.749] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-09-16 17:31:27.758] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-09-16 17:31:29.228] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/netoca/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.23.2
+[2022-09-16 17:31:29.444] [sharedprocess] [info] Extracted extension to /home/netoca/.vscode/extensions/.85076a05-db29-4e0c-b910-ebf53e40a053: vscodevim.vim
+[2022-09-16 17:31:29.449] [sharedprocess] [info] Renamed to /home/netoca/.vscode/extensions/vscodevim.vim-1.23.2
+[2022-09-16 17:31:29.451] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2022-09-16 17:31:29.452] [sharedprocess] [info] Extension installed successfully: vscodevim.vim

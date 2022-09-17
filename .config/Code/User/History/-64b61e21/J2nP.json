@@ -1,0 +1,6 @@
+{
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Bearded Theme Arc Eggplant",
+    "eslint.alwaysShowStatus": true,
+    "prettier.arrowParens": "avoid"
+}

@@ -1,0 +1,7 @@
+[Trace 20:26:16.544] Server: connection.languages.diagnostics.on: file:///home/netoca/projects/interactive-card-details-form-main/style-guide.md
+[Trace 20:26:16.547] Server: connection.languages.diagnostics.on: file:///home/netoca/projects/interactive-card-details-form-main/style-guide.md
+[Debug 20:26:16.610] TableOfContentsProvider: create - file:///home/netoca/projects/interactive-card-details-form-main/style-guide.md
+[Debug 20:26:16.675] LinkProvider: compute - file:///home/netoca/projects/interactive-card-details-form-main/style-guide.md
+[Debug 20:26:16.802] MdFoldingProvider: provideFoldingRanges - file:///home/netoca/projects/interactive-card-details-form-main/style-guide.md
+[Trace 20:26:21.757] Server: connection.languages.diagnostics.on: file:///home/netoca/projects/interactive-card-details-form-main/style-guide.md
+[Trace 20:26:23.412] Server: connection.languages.diagnostics.on: file:///home/netoca/projects/interactive-card-details-form-main/style-guide.md

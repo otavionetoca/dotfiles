@@ -4,57 +4,49 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup({
-	function(use)
-		-- Packer can manage itself
-		use("wbthomason/packer.nvim")
-		-- use("otavionetoca/moonlight.nvim")
-		use("folke/tokyonight.nvim")
+    function(use)
+        -- Packer can manage itself
+        use("wbthomason/packer.nvim")
+        use("folke/tokyonight.nvim")
+        use({
+            "nvim-treesitter/nvim-treesitter",
+            run = function() require("nvim-treesitter.install").update({ with_sync = true }) end,
+        })
+        use({
+            "williamboman/mason.nvim",
+            "williamboman/mason-lspconfig.nvim",
+            "neovim/nvim-lspconfig",
+            "hrsh7th/nvim-cmp", -- Autocompletion plugin
+            "hrsh7th/cmp-nvim-lsp", -- LSP source for nvim-cmp
+            "hrsh7th/cmp-buffer",
+            "hrsh7th/cmp-path",
+            "L3MON4D3/LuaSnip", -- Snippets plugin
+            "saadparwaiz1/cmp_luasnip", -- Snippets source for nvim-cmp
+            "nvim-lua/plenary.nvim",
+            "jose-elias-alvarez/null-ls.nvim"
+        })
+        use({
+            "glepnir/lspsaga.nvim",
+            branch = "main"
+        })
 
-		-- LSP
-		use("neovim/nvim-lspconfig") -- Collection of configurations for built-in LSP client
-		use("hrsh7th/nvim-cmp") -- Autocomplete
-		use("hrsh7th/cmp-nvim-lsp") -- LSP Source for nvim-cmp
-		use("hrsh7th/cmp-buffer") -- LSP Source for buffer
-		use("hrsh7th/cmp-path") -- LSP Source for path
-		use("saadparwaiz1/cmp_luasnip") -- Snippets source for nvim-cmp
-		use("L3MON4D3/LuaSnip") -- Snippets plugin
+        use("windwp/nvim-ts-autotag")
+        use("windwp/nvim-autopairs")
 
-		use("nvim-lua/plenary.nvim") -- Dependecy for null-ls
-		use({
-			"jose-elias-alvarez/null-ls.nvim",
-			requires = { "nvim-lua/plenary.nvim" },
-		}) -- Code actions, diagnostics, formatting and more
-		use({
-			"nvim-treesitter/nvim-treesitter",
-			run = function()
-				require("nvim-treesitter.install").update({ with_sync = true })
-			end,
-		})
-		use({
-			"windwp/nvim-autopairs",
-			config = function()
-				require("nvim-autopairs").setup({})
-			end,
-		})
-		use("windwp/nvim-ts-autotag")
-		use("kyazdani42/nvim-web-devicons")
+        use {
+            "nvim-telescope/telescope.nvim", tag = "0.1.0",
+            requires = { { "nvim-lua/plenary.nvim" } }
+        }
+        use("nvim-telescope/telescope-media-files.nvim")
 
-		use({
-			"nvim-telescope/telescope.nvim",
-			tag = "0.1.0",
-			requires = { { "nvim-lua/plenary.nvim" } },
-		})
-		use({
-			"nvim-telescope/telescope-fzf-native.nvim",
-			run = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build",
-		})
-
-		use("norcalli/nvim-colorizer.lua")
-	end,
-	config = {
-		profile = {
-			enable = true,
-			threshold = 1,
-		},
-	},
+        use("tpope/vim-commentary")
+        use("tpope/vim-surround")
+        use("preservim/nerdtree")
+    end,
+    config = {
+        profile = {
+            enable = true,
+            threshold = 1,
+        },
+    },
 })

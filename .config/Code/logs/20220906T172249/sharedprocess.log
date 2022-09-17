@@ -1,0 +1,13 @@
+[2022-09-06 17:22:51.261] [sharedprocess] [info] Starting worker process with pid 22162 (type: fileWatcher, window: 1).
+[2022-09-06 17:27:45.261] [sharedprocess] [info] Getting Manifest... asvetliakov.vscode-neovim
+[2022-09-06 17:27:45.267] [sharedprocess] [info] Installing extension: asvetliakov.vscode-neovim
+[2022-09-06 17:27:46.722] [sharedprocess] [info] Downloaded extension: asvetliakov.vscode-neovim /home/netoca/.config/Code/CachedExtensionVSIXs/asvetliakov.vscode-neovim-0.0.89
+[2022-09-06 17:27:46.832] [sharedprocess] [info] Extracted extension to /home/netoca/.vscode/extensions/.03cef19a-79d0-40f1-b404-2b524e054a3f: asvetliakov.vscode-neovim
+[2022-09-06 17:27:46.836] [sharedprocess] [info] Renamed to /home/netoca/.vscode/extensions/asvetliakov.vscode-neovim-0.0.89
+[2022-09-06 17:27:46.837] [sharedprocess] [info] Extracting completed. asvetliakov.vscode-neovim
+[2022-09-06 17:27:46.839] [sharedprocess] [info] Extension installed successfully: asvetliakov.vscode-neovim
+[2022-09-06 17:30:12.410] [sharedprocess] [info] Uninstalling extension: asvetliakov.vscode-neovim@0.0.89
+[2022-09-06 17:30:12.568] [sharedprocess] [info] Detected extension removed from another source asvetliakov.vscode-neovim
+[2022-09-06 17:30:12.812] [sharedprocess] [info] Successfully uninstalled extension: asvetliakov.vscode-neovim@0.0.89
+[2022-09-06 17:30:13.197] [sharedprocess] [info] Worker process with pid 22162 terminated normally (type: fileWatcher, window: 1).
+[2022-09-06 17:30:14.129] [sharedprocess] [info] Starting worker process with pid 24116 (type: fileWatcher, window: 1).

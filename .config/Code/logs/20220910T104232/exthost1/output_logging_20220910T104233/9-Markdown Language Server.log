@@ -1,0 +1,41 @@
+[Trace 15:07:29.415] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 15:07:29.417] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 15:07:29.501] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 15:07:29.544] LinkProvider: compute - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 15:07:29.697] MdFoldingProvider: provideFoldingRanges - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 19:53:03.872] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Trace 19:53:03.911] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Debug 19:53:03.912] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Trace 19:53:03.913] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Debug 19:53:03.930] LinkProvider: compute - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Debug 19:53:04.084] MdFoldingProvider: provideFoldingRanges - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Trace 19:53:31.372] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 19:53:31.417] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 19:53:31.418] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 19:53:31.418] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 19:53:31.428] LinkProvider: compute - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 19:53:31.584] MdFoldingProvider: provideFoldingRanges - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:24:44.985] DocumentSymbolProvider: provideDocumentSymbolInformation - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:24:44.985] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:24:44.985] DocumentSymbolProvider: provideDocumentSymbolInformation - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Debug 01:24:44.985] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/PULL_REQUEST_TEMPLATE.md
+[Debug 01:24:44.985] DocumentSymbolProvider: provideDocumentSymbolInformation - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/.github/ISSUE_TEMPLATE/Feature_request.md
+[Debug 01:24:44.985] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/.github/ISSUE_TEMPLATE/Feature_request.md
+[Debug 01:24:44.985] DocumentSymbolProvider: provideDocumentSymbolInformation - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/.github/ISSUE_TEMPLATE/Bug_report.md
+[Debug 01:24:44.985] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/.github/ISSUE_TEMPLATE/Bug_report.md
+[Debug 01:24:44.985] DocumentSymbolProvider: provideDocumentSymbolInformation - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/.github/ISSUE_TEMPLATE.md
+[Debug 01:24:44.985] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/.github/ISSUE_TEMPLATE.md
+[Trace 01:26:57.981] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 01:26:58.032] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:26:58.032] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 01:26:58.034] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:26:58.042] LinkProvider: compute - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:26:58.218] MdFoldingProvider: provideFoldingRanges - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 01:31:47.786] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 01:31:47.822] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:31:47.823] TableOfContentsProvider: create - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 01:31:47.823] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:31:47.844] LinkProvider: compute - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Debug 01:31:47.998] MdFoldingProvider: provideFoldingRanges - file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 01:31:48.811] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
+[Trace 01:32:03.709] Server: connection.languages.diagnostics.on: file:///home/netoca/coding-challenges/fullstack-labs/toy-blocks-client-react/README.md
