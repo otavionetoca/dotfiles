@@ -1,6 +1,0 @@
-[Info  - 5:20:22 PM] ESLint server is starting
-[Info  - 5:20:22 PM] ESLint server running in node v16.14.2
-[Info  - 5:20:22 PM] ESLint server is running.
-[Info  - 5:20:23 PM] ESLint library loaded from: /home/netoca/projects/interactive-card-form/node_modules/eslint/lib/api.js
-Warning: React version not specified in eslint-plugin-react settings. See https://github.com/jsx-eslint/eslint-plugin-react#configuration .
-[Info  - 5:22:40 PM] ESLint server stopped.

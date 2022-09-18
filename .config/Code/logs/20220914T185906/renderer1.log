@@ -1,6 +1,0 @@
-[2022-09-14 19:00:27.398] [renderer1] [error] Unable to read file '/home/netoca/work/helix/non-suspicious-repository/actions/users/controller_test.go' (Error: File not modified since): Error: Unable to read file '/home/netoca/work/helix/non-suspicious-repository/actions/users/controller_test.go' (Error: File not modified since)
-    at h.doReadFileStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:603:20036)
-    at async p.doRead (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2763:42714)
-    at async p.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2763:42389)
-    at async kr.resolveFromFile (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2752:68593)
-    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2763:36858

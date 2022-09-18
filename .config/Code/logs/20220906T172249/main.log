@@ -1,9 +1,0 @@
-[2022-09-06 17:22:49.766] [main] [info] update#setState idle
-[2022-09-06 17:22:50.636] [main] [info] Starting extension host with pid 22119 (fork() took 7 ms).
-[2022-09-06 17:23:19.771] [main] [info] update#setState checking for updates
-[2022-09-06 17:23:19.996] [main] [info] update#setState idle
-[2022-09-06 17:30:13.223] [main] [info] Extension host with pid 22119 exited with code: 0, signal: null.
-[2022-09-06 17:30:13.965] [main] [info] Starting extension host with pid 24103 (fork() took 8 ms).
-[2022-09-06 18:23:19.789] [main] [info] update#setState checking for updates
-[2022-09-06 18:23:20.683] [main] [info] update#setState idle
-[2022-09-08 18:16:50.155] [main] [info] Extension host with pid 24103 exited with code: 0, signal: null.

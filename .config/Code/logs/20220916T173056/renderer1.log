@@ -1,2 +1,0 @@
-[2022-09-16 17:31:22.724] [renderer1] [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
-[2022-09-16 17:31:30.787] [renderer1] [error] ENOENT: no such file or directory, open '/home/netoca/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/netoca/.config/Code/User/globalStorage/vscodevim.vim/.registers'
